@@ -88,6 +88,10 @@ header nav ul li a {
   font-size: 2.5rem;
 }
 
+#about #profile p {
+  line-height: 200%
+}
+
 #about #link {
   padding-top: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -132,6 +136,14 @@ footer{
 
   #about h2 {
     font-size: 1.75rem;
+  }
+
+  #about .content {
+    grid-template-columns: 1fr;
+  }
+
+  #about #profile {
+    margin-top: 1.5rem;
   }
 
   #about #link a {
