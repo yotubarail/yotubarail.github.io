@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+  font-kerning: normal;
+  scroll-behavior:smooth;
+}
+
+body {
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic,'Acme','Dancing Script', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Dancing Script';
+}
+
+.content {
+  padding-top: 2rem;
+  display: grid;
+}
+
+
+/* header */
+header {
+  width: 100vw;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 9;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.1rem;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+header nav ul li a {
+  font-family: 'Dancing Script';
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* firstview */
+#firstview {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#firstview .js-name {
+  display: block;
+  color: #fff;
+  animation-duration: 1.5s;
+}
+
+#firstview .js-name h1 {
+  font-size: 10rem;
+  font-family: 'Acme';
+}
+
+/* about */
+#about {
+  padding-top: 6rem;
+}
+
+#about .content {
+  grid-template-columns: 1fr 2fr;
+}
+
+#about #myImage {
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+}
+
+#about #link {
+  padding-top: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  text-align: center;
+}
+
+#about #link a {
+  margin: 2rem;
+}
+
+
+
+
+/* works */
+#works {
+  height: 100vh;
+  padding-top: 6rem;
+  background: rgba(232, 232, 232, 0.3);
+}
+
+/* contact */
+
+#contact {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+/* footer */
+footer{
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(232, 232, 232, 0.3);
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #about h2 {
+    font-size: 1.75rem;
+  }
+
+  #about #link a {
+    margin: 0.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+  #firstview .js-name h1 {
+    font-size: 5rem;
+  }
+}
