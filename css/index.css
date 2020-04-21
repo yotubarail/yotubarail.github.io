@@ -28,7 +28,7 @@ header {
   height: 4rem;
   position: fixed;
   top: 0;
-  background: #fff;
+  background: #000;
   z-index: 9;
 }
 
@@ -47,6 +47,14 @@ header nav ul li a {
   font-family: 'Dancing Script';
   font-size: 1.5rem;
   text-decoration: none;
+  color: #fff;
+}
+
+.js-headerColor {
+  background: #fff;
+}
+
+.js-headerColor nav li a {
   color: #000;
 }
 
