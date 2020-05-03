@@ -38,10 +38,10 @@
      $(window).on('load scroll', function(){
        if ($(window).scrollTop() < firstviewHeight) {
 
-         header.removeClass('js-headerColor');
+         header.addClass('js-headerColor');
        }else {
 
-         header.addClass('js-headerColor');
+         header.removeClass('js-headerColor');
        }
      });
    });
