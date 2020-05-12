@@ -110,15 +110,13 @@ header nav ul li a {
   margin: 2rem;
 }
 
-
-
-
 /* works */
 #works {
   height: 100vh;
   padding-top: 6rem;
   background: rgba(232, 232, 232, 0.3);
 }
+
 
 /* contact */
 #contact {
