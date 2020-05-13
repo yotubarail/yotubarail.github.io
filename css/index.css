@@ -117,16 +117,14 @@ header nav ul li a {
 }
 
 #works .content {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
   grid-template-columns: 1fr 1fr;
 }
 
-#works a {
+#works .list {
   margin: 2%;
   text-align: center;
-  text-decoration: none;
-  color: #000;
 }
 
 #works img {
