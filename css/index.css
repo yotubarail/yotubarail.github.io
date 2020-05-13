@@ -125,6 +125,8 @@ header nav ul li a {
 #works a {
   margin: 2%;
   text-align: center;
+  text-decoration: none;
+  color: #000;
 }
 
 #works img {
