@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+  font-kerning: normal;
+  scroll-behavior:smooth;
+}
+
+.content {
+  padding-top: 2rem;
+  display: grid;
+}
+
+
+/* footer */
+footer{
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(232, 232, 232, 0.3);
+}
