@@ -10,6 +10,10 @@ html {
   padding-top: 2rem;
 }
 
+.pc-none {
+  display: none;
+}
+
 /* main */
 
 /* feature */
@@ -17,12 +21,24 @@ html {
   padding-top: 6rem;
 }
 
+#feature h2 {
+  text-align: center;
+}
+
 #feature .content {
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+#feature h3 {
+  padding: 1rem;
+  background: lightblue;
+  text-align: center;
 }
 
 #feature .detail {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -53,11 +69,19 @@ footer{
 
 
 @media only screen and (max-width: 480px) {
+  .pc-none {
+    display: block;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
 
   /* feature */
+  #feature h3 {
+    font-size: 1rem;
+  }
+
   #feature .detail {
     grid-template-columns: 1fr;
   }
