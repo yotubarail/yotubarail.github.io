@@ -119,11 +119,11 @@ header nav ul li a {
 #works .content {
   padding-left: 10%;
   padding-right: 10%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #works .list {
-  margin: 2%;
+  margin: 3%;
   text-align: center;
 }
 
