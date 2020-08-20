@@ -16,6 +16,10 @@ html {
 
 /* main */
 
+#about {
+  text-align: center;
+}
+
 /* feature */
 #feature {
   padding-top: 6rem;
