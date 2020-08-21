@@ -18,11 +18,19 @@ html {
 
 #about {
   text-align: center;
-  line-height: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#about img {
+  width: 70%;
 }
 
 #about b {
   font-size: 1.5rem;
+  color: blue;
 }
 
 /* feature */
@@ -96,12 +104,12 @@ footer ul li a {
     display: block;
   }
 
-  h1 {
-    font-size: 2.5rem;
-  }
-
   #about {
     text-align: left;
+  }
+
+  #about img {
+    width: 100%;
   }
 
   /* feature */
