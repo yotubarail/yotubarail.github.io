@@ -18,6 +18,11 @@ html {
 
 #about {
   text-align: center;
+  line-height: 2rem;
+}
+
+#about b {
+  font-size: 1.5rem;
 }
 
 /* feature */
@@ -49,7 +54,6 @@ html {
 
 #feature .text {
   margin: 3%;
-  /* text-align: center; */
 }
 
 #feature img {
@@ -71,6 +75,21 @@ footer{
   background: rgba(232, 232, 232, 0.3);
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
 
 @media only screen and (max-width: 480px) {
   .pc-none {
@@ -79,6 +98,10 @@ footer{
 
   h1 {
     font-size: 2.5rem;
+  }
+
+  #about {
+    text-align: left;
   }
 
   /* feature */
