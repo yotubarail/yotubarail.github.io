@@ -20,6 +20,14 @@ html {
   text-align: center;
 }
 
+#about .announcement {
+  padding-top: 2rem;
+}
+
+#about .announcement .iOS14 {
+  color: red;
+}
+
 h1 {
   font-size: 2.5rem;
 }
