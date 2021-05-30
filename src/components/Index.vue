@@ -73,7 +73,7 @@
    </main>
 
    <footer>
-     <small>&copy; 2020 Shota Takinami </small>
+     <small>&copy; 2021 Shota Takinami </small>
    </footer>
   </div>
 </template>
