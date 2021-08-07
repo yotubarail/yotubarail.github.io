@@ -30,7 +30,7 @@
           <p>プログラミングや趣味についての<a href="https://yotubarail.work" target="_blank">ブログ</a>をちょこちょこ書いています</p>
           <div id="skill">
             <h3>スキル</h3>
-            <p>HTML,CSS,JavaScript(jQuery,Vue.js),Swift</p>
+            <p>HTML,CSS,JavaScript(jQuery,Vue.js),Swift,<a href="https://www.credly.com/badges/eb1c9191-986b-49d9-8fdb-3710f784591d/public_url">AWSクラウドプラクティショナー</a></p>
           </div>
         </div>
       </div>
