@@ -91,7 +91,21 @@ header {
     text-align: left;
 
     p {
-      line-height: 200%
+      line-height: 200%;
+    }
+
+    #hobby {
+      margin-top: 0.5rem;
+      li {
+        list-style: none;
+      }
+    }
+
+    #skill {
+      margin-top: 0.5rem;
+      li {
+        list-style: none;
+      }
     }
   }
 

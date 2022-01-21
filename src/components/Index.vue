@@ -28,9 +28,26 @@
           <h2>滝浪 翔太</h2>
           <p>静岡市出身</p>
           <p>プログラミングや趣味についての<a href="https://yotubarail.work" target="_blank">ブログ</a>をちょこちょこ書いています</p>
+          <div id="hobby">
+            <h3>趣味</h3>
+            <ul>
+              <li>鉄道模型</li>
+              <li>アニソンDJ</li>
+              <li>アニメ・特撮鑑賞、関連グッズ集め</li>
+              <li>アマチュア無線</li>
+            </ul>
+          </div>
           <div id="skill">
             <h3>スキル</h3>
-            <p>HTML,CSS,JavaScript(jQuery,Vue.js),Swift,<a href="https://www.credly.com/badges/eb1c9191-986b-49d9-8fdb-3710f784591d/public_url">AWSクラウドプラクティショナー</a></p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS(SCSS)</li>
+              <li>JavaScript(jQuery,Vue.js)</li>
+              <li>Swift</li>
+              <li>
+                <a href="https://www.credly.com/badges/eb1c9191-986b-49d9-8fdb-3710f784591d/public_url">AWSクラウドプラクティショナー</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
