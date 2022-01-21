@@ -42,8 +42,8 @@
             <ul>
               <li>HTML</li>
               <li>CSS(SCSS)</li>
-              <li>JavaScript(jQuery,Vue.js)</li>
-              <li>Swift</li>
+              <li>JavaScript(Vue.js)</li>
+              <li>Swift(SwiftUI)</li>
               <li>
                 <a href="https://www.credly.com/badges/eb1c9191-986b-49d9-8fdb-3710f784591d/public_url">AWSクラウドプラクティショナー</a>
               </li>
@@ -61,17 +61,21 @@
      <section id="works">
        <h1>Works</h1>
        <div class="content">
+         <div class="list">
+           <a href="https://youtu.be/UAOfQvmiRj4" target="_blank"><img src="../img/denonbuOnly.jpg" alt="電音部オンリーmix"></a>
+           <p>電音部オンリーmix</p>
+         </div>
         <div class="list">
           <a href="https://yotubarail.github.io/swiftevent/swiftevent.html" target="_blank"><img src="../img/work3.png" alt="Swiftevent"></a>
           <p>Swiftevent</p>
         </div>
+        <div class="list">
+           <a href="https://apps.apple.com/jp/app/カンタン受付/id1537911799" target="_blank"><img src="../img/work2.png" alt="カンタン受付"></a>
+           <p>カンタン受付</p>
+         </div>
          <div class="list">
            <a href="http://shinsengumi-system.com/LP/index.html" target="_blank"><img src="../img/work1.png" alt="新洗組LP"></a>
            <p>新洗組LP</p>
-         </div>
-         <div class="list">
-           <a href="https://apps.apple.com/jp/app/カンタン受付/id1537911799" target="_blank"><img src="../img/work2.png" alt="カンタン受付"></a>
-           <p>カンタン受付</p>
          </div>
          <!-- <div class="list">
            <a href="#"><img src="img/work4.png" alt="ららマジ聖地巡礼アプリ"></a>
