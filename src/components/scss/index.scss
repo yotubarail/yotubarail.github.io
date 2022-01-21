@@ -51,8 +51,8 @@ header {
 }
 
 
-/* firstview */
-#firstview {
+/* firstView */
+#firstView {
   height: 100vh;
   background: #000;
   display: flex;
@@ -179,7 +179,7 @@ footer{
 }
 
 @media only screen and (max-width: 960px) {
-  #firstview .js-name h1 {
+  #firstView .js-name h1 {
     font-size: 5rem;
   }
 }
