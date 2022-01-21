@@ -52,9 +52,9 @@
         </div>
       </div>
       <div id="link">
-        <a href="https://twitter.com/yotubarail" target="_blank"><img src="../img/twitterIcon.png" alt="Twitter"></a>
-        <a href="https://github.com/yotubarail" target="_blank"><img src="../img/githubIcon.png" alt="GitHub"></a>
-        <a href="https://codepen.io/yotubarail" target="_blank"><img src="../img/codePenLogo.png" alt="CodePen"></a>
+        <a href="https://twitter.com/yotubarail" target="_blank"><img src="../img/twittericon.png" alt="Twitter"></a>
+        <a href="https://github.com/yotubarail" target="_blank"><img src="../img/githubicon.png" alt="GitHub"></a>
+        <a href="https://codepen.io/yotubarail" target="_blank"><img src="../img/codepenlogo.png" alt="CodePen"></a>
       </div>
      </section>
 
