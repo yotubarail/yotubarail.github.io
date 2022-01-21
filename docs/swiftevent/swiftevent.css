@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+  font-kerning: normal;
+  scroll-behavior:smooth;
+}
+
+.content {
+  padding-top: 2rem;
+}
+
+.pc-none {
+  display: none;
+}
+
+/* main */
+
+#about {
+  text-align: center;
+}
+
+#about .announcement {
+  padding-top: 2rem;
+}
+
+#about .announcement .iOS14 {
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#about img {
+  width: 70%;
+}
+
+#about b {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+/* feature */
+#feature {
+  padding-top: 6rem;
+}
+
+#feature h2 {
+  text-align: center;
+}
+
+#feature .content {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+#feature h3 {
+  padding: 1rem;
+  background: #b0e0e6;
+  text-align: center;
+}
+
+#feature .detail {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#feature .text {
+  margin: 3%;
+}
+
+#feature img {
+  width: 100%;
+}
+
+
+/* download */
+#download {
+  text-align: center;
+}
+
+
+/* footer */
+footer{
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(232, 232, 232, 0.3);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .pc-none {
+    display: block;
+  }
+
+  #about {
+    text-align: left;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
+  /* feature */
+  #feature h3 {
+    font-size: 1rem;
+  }
+
+  #feature .detail {
+    grid-template-columns: 1fr;
+  }
+
+}
