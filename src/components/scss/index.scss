@@ -19,6 +19,8 @@ h1 {
 .content {
   padding-top: 2rem;
   display: grid;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
@@ -127,8 +129,6 @@ header {
   background: rgba(232, 232, 232, 0.3);
 
   .content {
-    padding-left: 10%;
-    padding-right: 10%;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
