@@ -66,7 +66,9 @@
            <p>電音部オンリーmix</p>
          </div>
         <div class="list">
-          <a href="https://yotubarail.github.io/swiftevent/swiftevent.html" target="_blank"><img src="../img/work3.png" alt="Swiftevent"></a>
+          <router-link :to="{name: 'swiftevent'}">
+            <img src="../img/work3.png" alt="Swiftevent">
+          </router-link>
           <p>Swiftevent</p>
         </div>
         <div class="list">
