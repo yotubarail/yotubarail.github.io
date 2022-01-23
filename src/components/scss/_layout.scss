@@ -3,7 +3,6 @@
 html {
   font-size: 16px;
   font-kerning: normal;
-  scroll-behavior:smooth;
 }
 
 body {
@@ -21,6 +20,10 @@ h1 {
   display: grid;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.pc-none {
+  display: none;
 }
 
 
@@ -52,8 +55,34 @@ header {
   }
 }
 
+/* footer */
+footer{
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(232, 232, 232, 0.3);
 
-/* firstView */
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      margin-right: 2rem;
+
+      a {
+        text-decoration: none;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+/*
+index
+*/
+
+// firstView
 #firstView {
   height: 100vh;
   background: #000;
@@ -73,7 +102,7 @@ header {
   }
 }
 
-/* about */
+// about
 #about {
   padding-top: 6rem;
 
@@ -123,7 +152,7 @@ header {
 }
 
 
-/* works */
+// works
 #works {
   padding-top: 6rem;
   background: rgba(232, 232, 232, 0.3);
@@ -149,13 +178,71 @@ header {
   text-align: center;
 }
 
+/*
+swiftevent
+*/
 
-/* footer */
-footer{
-  margin-top: 2rem;
-  padding: 1rem;
+// aboutSwiftevent
+#aboutSwiftevent {
   text-align: center;
-  background: rgba(232, 232, 232, 0.3);
+
+  .announcement {
+    padding-top: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  b {
+    font-size: 1.5rem;
+    color: blue;
+  }
+}
+
+// feature
+#feature {
+  padding-top: 6rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  .content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+
+  h3 {
+    padding: 1rem;
+    background: #b0e0e6;
+    text-align: center;
+  }
+
+  .detail {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text {
+    margin: 3%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+
+// download
+#download {
+  text-align: center;
 }
 
 
@@ -163,6 +250,10 @@ footer{
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 2.5rem;
+  }
+
+  .pc-none {
+    display: block;
   }
 
 /* about */
@@ -190,6 +281,28 @@ footer{
     grid-template-columns: 1fr;
   }
 
+/*
+swiftevent
+*/
+  // aboutSwiftevent
+  #aboutSwiftevent {
+    text-align: left;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  // feature
+  #feature {
+    h3 {
+      font-size: 1rem;
+    }
+
+    .detail {
+      grid-template-columns: 1fr;
+    }
+  }
 }
 
 @media only screen and (max-width: 960px) {

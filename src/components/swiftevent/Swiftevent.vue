@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Swifteventは勉強会探しから当日会場までの移動までをスムーズにするアプリです">
-    <meta name="keywords" content="">
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://yotubarail.github.io/swiftevent/swiftevent.html"/>
-    <meta property="og:title" content="Swiftevent"/>
-    <meta property="og:site_name" content="Swiftevent"/>
-    <meta property="og:image" content="https://yotubarail.github.io/swiftevent/img/top.jpg"/>
-    <meta name="twitter:card" content="summary"/>
-    <title>Swiftevent</title>
-    <link rel="icon" href="/public/favicon.ico">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="swiftevent.css">
-  </head>
-  <body>
+<template>
+  <div>
     <main>
-      <section id="about">
-        <img src="img/top.jpg" alt="Swiftevent">
+      <section id="aboutSwiftevent">
+        <img src="../../img/top.jpg" alt="Swiftevent">
         <h1>What's Swifrevent</h1>
         <p>多くのイベントが掲載されるconnpassに対応し、イベント参加をSwiftにするアプリ</p>
         <p>それがSwifteventです！！</p>
@@ -37,7 +20,7 @@
               <p>connpass上で公開されている勉強会を探し出せる</p>
             </div>
             <div class="image">
-              <img src="img/image1.png" alt="検索画面">
+              <img src="../../img/image1.png" alt="検索画面">
             </div>
           </div>
         </div>
@@ -48,7 +31,7 @@
               <p>参加申し込みをしたイベントを最新順に10件まで表示</p>
             </div>
             <div class="image">
-              <img src="img/image2.png" alt="参加するイベント">
+              <img src="../../img/image2.png" alt="参加するイベント">
             </div>
           </div>
         </div>
@@ -59,7 +42,7 @@
               <p>地図画面を開くことで自動で現在地から会場までのルートを表示</p>
             </div>
             <div class="image">
-              <img src="img/image3.png" alt="地図画面">
+              <img src="../../img/image3.png" alt="地図画面">
             </div>
           </div>
         </div>
@@ -76,5 +59,5 @@
       </ul>
       <small>&copy; 2020 Shota Takinami </small>
     </footer>
-  </body>
-</html>
+  </div>
+</template>
