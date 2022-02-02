@@ -13,8 +13,10 @@
    <main>
      <section id="firstView">
        <div class="js-name animated fadeInLeft">
-         <h1>Shota<br>
-         Takinami</h1>
+         <h1>
+           Takinami<br>
+           Shota
+         </h1>
        </div>
      </section>
 
@@ -96,7 +98,7 @@
    </main>
 
    <footer>
-     <small>&copy; 2021 Shota Takinami </small>
+     <small>&copy; 2021 Takinami Shota</small>
    </footer>
   </div>
 </template>
