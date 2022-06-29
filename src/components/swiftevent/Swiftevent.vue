@@ -3,7 +3,7 @@
     <main>
       <section id="aboutSwiftevent">
         <img src="../../img/top.jpg" alt="Swiftevent">
-        <h1>What's Swifrevent</h1>
+        <h1>What's Swiftevent</h1>
         <p>多くのイベントが掲載されるconnpassに対応し、イベント参加をSwiftにするアプリ</p>
         <p>それがSwifteventです！！</p>
         <div class="announcement">
