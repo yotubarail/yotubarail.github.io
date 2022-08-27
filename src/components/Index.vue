@@ -58,6 +58,7 @@
         <a href="https://twitter.com/yotubarail" target="_blank"><img src="../img/twittericon.png" alt="Twitter"></a>
         <a href="https://github.com/yotubarail" target="_blank"><img src="../img/githubicon.png" alt="GitHub"></a>
         <a href="https://codepen.io/yotubarail" target="_blank"><img src="../img/codepenlogo.png" alt="CodePen"></a>
+        <a href="https://www.mixcloud.com/hasuosan/" target="_blank"><img src="../img/mixcloudicon.png" alt="Mixcloud"></a>
       </div>
      </section>
 
