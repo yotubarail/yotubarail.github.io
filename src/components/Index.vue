@@ -14,8 +14,7 @@
      <section id="firstView">
        <div class="js-name animated fadeInLeft">
          <h1>
-           Takinami<br>
-           Shota
+            Hasuo
          </h1>
        </div>
      </section>
@@ -27,7 +26,7 @@
           <img src="../img/nami.png" alt="似顔絵">
         </div>
         <div id="profile">
-          <h2>滝浪 翔太</h2>
+          <h2>ハスお</h2>
           <p>静岡市出身</p>
           <p>プログラミングや趣味についての<a href="https://yotubarail.work" target="_blank">ブログ</a>をちょこちょこ書いています</p>
           <div id="hobby">
@@ -92,7 +91,7 @@
    </main>
 
    <footer>
-     <small>&copy; 2021 Takinami Shota</small>
+     <small>&copy; 2021 Hasuo</small>
    </footer>
   </div>
 </template>
