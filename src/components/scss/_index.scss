@@ -1,0 +1,132 @@
+// firstView
+#firstView {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .js-name {
+    display: block;
+    color: #fff;
+    animation-duration: 1.5s;
+
+    h1 {
+      font-size: 10rem;
+    }
+  }
+}
+
+
+// about
+#about {
+  padding-top: 6rem;
+
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #myImage {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  #profile {
+    text-align: left;
+
+    p {
+      line-height: 200%;
+    }
+
+    #hobby {
+      margin-top: 0.5rem;
+      li {
+        list-style: none;
+      }
+    }
+
+    #skill {
+      margin-top: 0.5rem;
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  #link {
+    padding-top: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    text-align: center;
+
+    a {
+      margin: 2rem;
+    }
+  }
+}
+
+
+// works
+#works {
+  padding-top: 6rem;
+  background: rgba(232, 232, 232, 0.3);
+
+  .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .list {
+    margin: 3%;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+
+// contact
+#contact {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  #firstView .js-name h1 {
+    font-size: 4.5rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  // about
+  #about {
+    h2 {
+      font-size: 1.75rem;
+    }
+
+    .content {
+      grid-template-columns: 1fr;
+    }
+
+    #profile {
+      margin-top: 1.5rem;
+    }
+
+    #link a {
+      margin: 0.5rem;
+    }
+  }
+
+
+  // works
+  #works .content {
+    grid-template-columns: 1fr;
+  }
+}
