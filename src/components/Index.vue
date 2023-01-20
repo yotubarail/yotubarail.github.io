@@ -44,6 +44,7 @@
               <li>HTML</li>
               <li>CSS(SCSS)</li>
               <li>JavaScript(Vue.js)</li>
+              <li>Node.js</li>
               <li>TypeScript</li>
               <li>Swift(SwiftUI)</li>
               <li>Dart(Flutter)</li>
