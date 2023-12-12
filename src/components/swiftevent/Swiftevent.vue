@@ -48,7 +48,7 @@
         </div>
       </section>
       <section id="download">
-        <a href="https://apps.apple.com/jp/app/swiftevent/id1527043419?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2020-08-13&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+        <a href="https://apps.apple.com/jp/app/swiftevent/id1527043419?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b1/c4/83/b1c4832d-3dc9-d3be-376b-d667488a2c00/AppIcon-1x_U007emarketing-0-7-0-P3-85-220.png/540x540bb.jpg" alt="Swiftevent" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"></a>
         <p>iOS13以上対応</p>
       </section>
     </main>
