@@ -6,6 +6,7 @@
         <h1>What's Swiftevent</h1>
         <p>多くのイベントが掲載されるconnpassに対応し、イベント参加をSwiftにするアプリ</p>
         <p>それがSwifteventです！！</p>
+        <p>connpass APIのサービス変更につき、サービスを停止しています</p>
         <div class="announcement">
           <p>SwifteventにはSwiftUIを使用しました。</p>
           <p class="iOS14">iOS14に対応しました！これからも「Swiftevent」よろしくお願い致します。</p>
