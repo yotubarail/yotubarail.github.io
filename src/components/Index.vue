@@ -67,6 +67,10 @@
        <h1>Works</h1>
        <div class="content">
         <div class="list">
+           <a href="https://youtu.be/2j1qZlkmWlg" target="_blank"><img src="../img/denonbu4thOnly.jpg" alt="電音部4th Live使用楽曲オンリーmix"></a>
+           <p>電音部4th Live使用楽曲オンリーmix</p>
+         </div>
+        <div class="list">
            <a href="https://youtu.be/OiVTa2rAfM4" target="_blank"><img src="../img/denonbu3rdOnly.jpg" alt="電音部3rd Live使用楽曲オンリーmix"></a>
            <p>電音部3rd Live使用楽曲オンリーmix</p>
          </div>
