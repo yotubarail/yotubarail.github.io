@@ -43,11 +43,17 @@
             <ul>
               <li>HTML</li>
               <li>CSS(SCSS)</li>
-              <li>JavaScript(Vue.js)</li>
-              <li>Node.js</li>
+              <li>JavaScript(Vue.js, Angular, React, Node.js)</li>
               <li>TypeScript</li>
-              <li>Swift(SwiftUI)</li>
+              <li>Swift(UIKit, SwiftUI)</li>
               <li>Dart(Flutter)</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>C#</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>NoSQL</li>
+              <li>Azure</li>
               <li>
                 <a href="https://www.credly.com/badges/eb1c9191-986b-49d9-8fdb-3710f784591d/public_url">AWSクラウドプラクティショナー</a>
               </li>
@@ -66,6 +72,10 @@
      <section id="works">
        <h1>Works</h1>
        <div class="content">
+        <div class="list">
+           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2182805227&color=%23413f39&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/r147ywkbqwhs" title="hasuo" target="_blank" style="color: #cccccc; text-decoration: none;">hasuo</a> · <a href="https://soundcloud.com/r147ywkbqwhs/planet-wax-20250917-open-decks" title="Planet Wax 20250917 open decks" target="_blank" style="color: #cccccc; text-decoration: none;">Planet Wax 20250917 open decks</a></div>
+           <p>Play at Planet Wax in London</p>
+         </div>
         <div class="list">
            <a href="https://youtu.be/2j1qZlkmWlg" target="_blank"><img src="../img/denonbu4thOnly.jpg" alt="電音部4th Live使用楽曲オンリーmix"></a>
            <p>電音部4th Live使用楽曲オンリーmix</p>
